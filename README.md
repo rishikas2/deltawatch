@@ -2,7 +2,7 @@
 
 DeltaWatch is a production-grade financial intelligence terminal built to deliver real-time benchmark tracking, interactive chart analytics, and stress-testing capabilities. Engineered with Next.js and Python, it features live market synchronization, dynamic sector filtering, custom volatility alerts, and instant CSV audit logging.
 
-![DeltaWatch Terminal](https://deltawatch.vercel.app/preview.png)
+![DeltaWatch Terminal](https://deltawatch-psi.vercel.app/)
 
 ---
 
