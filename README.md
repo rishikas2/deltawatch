@@ -2,8 +2,6 @@
 
 DeltaWatch is a production-grade financial intelligence terminal built to deliver real-time benchmark tracking, interactive chart analytics, and stress-testing capabilities. Engineered with Next.js and Python, it features live market synchronization, dynamic sector filtering, custom volatility alerts, and instant CSV audit logging.
 
-![DeltaWatch Terminal](https://deltawatch-psi.vercel.app/)
-
 ---
 
 ## Key Features
@@ -39,3 +37,30 @@ DeltaWatch is a production-grade financial intelligence terminal built to delive
    ```bash
    git clone [https://github.com/rishikas2/deltawatch.git](https://github.com/rishikas2/deltawatch.git)
    cd deltawatch/frontend
+
+1. Install Dependencies:
+   npm install
+
+2. Run the Development Server:
+   npm run dev
+
+3. Open Application:
+   Navigate to http://localhost:3000 in your browser.
+
+ARCHITECTURE OVERVIEW:
+
+deltawatch/
+├── frontend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── stock/route.ts   # Serverless market data handler
+│   │   ├── globals.css          # Tailwind CSS styling
+│   │   ├── layout.tsx           # Terminal layout wrapper
+│   │   └── page.tsx             # Main dashboard UI & state engine
+│   └── public/                  # Static assets & icons
+└── backend/                     # Python Flask analytics & SQLite engine
+
+## Deployment
+
+* **Live Terminal:** [https://deltawatch-psi.vercel.app/](https://deltawatch-psi.vercel.app/)
+* **Repository:** [https://github.com/rishikas2/deltawatch](https://github.com/rishikas2/deltawatch)
