@@ -47,8 +47,9 @@ DeltaWatch is a production-grade financial intelligence terminal built to delive
 3. Open Application:
    Navigate to http://localhost:3000 in your browser.
 
-ARCHITECTURE OVERVIEW:
+## Architecture Overview
 
+```
 deltawatch/
 ├── frontend/
 │   ├── app/
@@ -59,6 +60,7 @@ deltawatch/
 │   │   └── page.tsx             # Main dashboard UI & state engine
 │   └── public/                  # Static assets & icons
 └── backend/                     # Python Flask analytics & SQLite engine
+```
 
 ## Deployment
 
